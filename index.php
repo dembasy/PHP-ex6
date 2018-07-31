@@ -1,4 +1,5 @@
 <?php
+// tableau ou on va stocker les différents départements
 $region = array(
   '59' => 'Nord',
   '62' => 'Pas de Calais',
@@ -15,6 +16,7 @@ $region = array(
   <body>
     <p>
       <?php
+      // affichage du département du nord 
         echo $region['59'];
         ?>
     </p>
